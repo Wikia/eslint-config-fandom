@@ -2,9 +2,6 @@ module.exports = {
   'root': true,
   'parser': 'babel-eslint',
   'extends': 'airbnb',
-  'ext': [
-    'js', 'jsx', 'es6'
-  ],
   'rules': {
     'indent': [2, 'tab', {'VariableDeclarator': 1, 'SwitchCase': 1}],
     'max-len': [2, 120, 2],
