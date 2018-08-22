@@ -1,21 +1,4 @@
-# eslint-config-fandom
-ESLint ruleset for Fandom based on https://github.com/Wikia/javascript-style-guide
+# NOTICE
 
-## Usage
+Wikia switched to using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) for ES6+, therefore [Airbnb ESLint config](https://www.npmjs.com/package/eslint-config-airbnb) should be used instead.
 
-### package.json
-```json
-{
-  "devDependencies": {
-    "eslint-config-fandom": "git://github.com/Wikia/eslint-config-fandom.git#2.0.0",
-    "eslint": "^4.3.0"
-  }
-}
-```
-
-### .eslintrc
-```json
-{
-  "extends": "fandom",
-}
-```
